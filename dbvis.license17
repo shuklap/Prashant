@@ -1,0 +1,12 @@
+# DbVisualizer license key
+dbvis.license.product        = DbVisualizer
+dbvis.license.edition        = Personal
+dbvis.license.id             = 2010-06-01 / #17
+dbvis.license.name           = Democratic National Committee
+dbvis.license.org            = Democratic National Committee
+dbvis.license.activation     = 2010-06-01
+dbvis.license.expire         = 2099-01-01
+dbvis.license.upgrade.expire = 2011-06-03
+dbvis.license.seal           = MCwCFAlAekyseeqobUweWvD3I26GizhjAhRkgwpR6onBuxLej2zjD+MQqP9l3A==
+# The following is needed only for backward compatibility
+dbvis.license.version        = 5.*
