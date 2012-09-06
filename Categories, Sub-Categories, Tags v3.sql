@@ -4,7 +4,7 @@ issues_sub_categories.name as sub_category,
 media_ads.name,
 round(sum(buys.scaled_dollars)) as scaled_dollars, 
 null as ad_tag
-from media_buys_by_day as buys
+from media_buys_by_day as buys  
 left join media_ads on buys.media_ad_id = media_ads.id
 left join issues_media_ads on media_ads.id = issues_media_ads.media_ad_id
 left join issues as issues_categories on issues_media_ads.issue_id = issues_categories.id 
